@@ -1,0 +1,23 @@
+BiLSTM Improved - Test Results
+
+Accuracy: 0.7239
+Macro Precision: 0.3851
+Macro Recall: 0.5777
+Macro F1-score: 0.4024
+
+              precision    recall  f1-score   support
+
+        hate     0.4309    0.4727    0.4509       165
+    idk/skip     0.1698    0.9000    0.2857        10
+      noHate     0.9177    0.7643    0.8340      1298
+    relation     0.0221    0.1739    0.0392        23
+
+    accuracy                         0.7239      1496
+   macro avg     0.3851    0.5777    0.4024      1496
+weighted avg     0.8452    0.7239    0.7758      1496
+
+Confusion Matrix:
+[[ 78   0  71  16]
+ [  0   9   1   0]
+ [101  44 992 161]
+ [  2   0  17   4]]

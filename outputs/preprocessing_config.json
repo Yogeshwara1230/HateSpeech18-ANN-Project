@@ -1,0 +1,18 @@
+{
+    "max_tokens": 15000,
+    "sequence_length": 100,
+    "vocabulary_size": 12984,
+    "classes": [
+        "hate",
+        "idk/skip",
+        "noHate",
+        "relation"
+    ],
+    "seed": 42,
+    "class_weights": {
+        "0": 2.2711588541666665,
+        "1": 34.885,
+        "2": 0.2881628944325128,
+        "3": 16.455188679245282
+    }
+}

@@ -1,0 +1,23 @@
+Model: ANN_Baseline
+
+Accuracy: 0.8676
+Macro Precision: 0.2169
+Macro Recall: 0.2500
+Macro F1-score: 0.2323
+
+              precision    recall  f1-score   support
+
+        hate     0.0000    0.0000    0.0000       165
+    idk/skip     0.0000    0.0000    0.0000        10
+      noHate     0.8676    1.0000    0.9291      1298
+    relation     0.0000    0.0000    0.0000        23
+
+    accuracy                         0.8676      1496
+   macro avg     0.2169    0.2500    0.2323      1496
+weighted avg     0.7528    0.8676    0.8062      1496
+
+Confusion Matrix:
+[[   0    0  165    0]
+ [   0    0   10    0]
+ [   0    0 1298    0]
+ [   0    0   23    0]]

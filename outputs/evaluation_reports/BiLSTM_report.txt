@@ -1,0 +1,23 @@
+Model: BiLSTM
+
+Accuracy: 0.6898
+Macro Precision: 0.3602
+Macro Recall: 0.5975
+Macro F1-score: 0.3867
+
+              precision    recall  f1-score   support
+
+        hate     0.3270    0.6242    0.4292       165
+    idk/skip     0.1429    0.8000    0.2424        10
+      noHate     0.9280    0.7049    0.8012      1298
+    relation     0.0432    0.2609    0.0741        23
+
+    accuracy                         0.6898      1496
+   macro avg     0.3602    0.5975    0.3867      1496
+weighted avg     0.8429    0.6898    0.7453      1496
+
+Confusion Matrix:
+[[103   1  55   6]
+ [  0   8   1   1]
+ [210  47 915 126]
+ [  2   0  15   6]]

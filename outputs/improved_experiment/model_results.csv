@@ -1,0 +1,2 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1-score,Best Validation Loss,Epochs Trained
+BiLSTM_Improved,0.7239304812834224,0.3851297049874383,0.577723253165405,0.4024402185923025,0.7516586184501648,10
